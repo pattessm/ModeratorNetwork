@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AB363752103FDA500404D9D /* Moderator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2492103F3CF00B4F229 /* Moderator.swift */; };
+		4AB363762103FDA500404D9D /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED24C2103F3EF00B4F229 /* Double+Extensions.swift */; };
+		4AB363772103FDA500404D9D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2162103F36700B4F229 /* String+Extensions.swift */; };
+		4AB363782103FDA500404D9D /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2082103F2F700B4F229 /* DataResponseError.swift */; };
+		4AB363792103FDA500404D9D /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2072103F2F700B4F229 /* HTTPURLResponse.swift */; };
+		4AB3637A2103FDA500404D9D /* ModeratorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED20A2103F2F700B4F229 /* ModeratorRequest.swift */; };
+		4AB3637B2103FDA500404D9D /* PagedModeratorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED20D2103F2F800B4F229 /* PagedModeratorResponse.swift */; };
+		4AB3637C2103FDA500404D9D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2092103F2F700B4F229 /* Result.swift */; };
+		4AB3637D2103FDA500404D9D /* StackExchangeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED20B2103F2F800B4F229 /* StackExchangeClient.swift */; };
+		4AB3637E2103FDA500404D9D /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED20C2103F2F800B4F229 /* URLRequest.swift */; };
 		4ADED1F72103F28400B4F229 /* ModeratorNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADED1ED2103F28400B4F229 /* ModeratorNetwork.framework */; };
 		4ADED1FC2103F28400B4F229 /* ModeratorNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED1FB2103F28400B4F229 /* ModeratorNetworkTests.swift */; };
 		4ADED1FE2103F28400B4F229 /* ModeratorNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADED1F02103F28400B4F229 /* ModeratorNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ADED20E2103F2F800B4F229 /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2072103F2F700B4F229 /* HTTPURLResponse.swift */; };
-		4ADED20F2103F2F800B4F229 /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2082103F2F700B4F229 /* DataResponseError.swift */; };
-		4ADED2102103F2F800B4F229 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2092103F2F700B4F229 /* Result.swift */; };
-		4ADED2112103F2F800B4F229 /* ModeratorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED20A2103F2F700B4F229 /* ModeratorRequest.swift */; };
-		4ADED2122103F2F800B4F229 /* StackExchangeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED20B2103F2F800B4F229 /* StackExchangeClient.swift */; };
-		4ADED2132103F2F800B4F229 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED20C2103F2F800B4F229 /* URLRequest.swift */; };
-		4ADED2142103F2F800B4F229 /* PagedModeratorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED20D2103F2F800B4F229 /* PagedModeratorResponse.swift */; };
-		4ADED2172103F36700B4F229 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2162103F36700B4F229 /* String+Extensions.swift */; };
-		4ADED24A2103F3CF00B4F229 /* Moderator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED2492103F3CF00B4F229 /* Moderator.swift */; };
-		4ADED24D2103F3EF00B4F229 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADED24C2103F3EF00B4F229 /* Double+Extensions.swift */; };
 		4ADED2502103F4AF00B4F229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADED24F2103F4AF00B4F229 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,9 +95,16 @@
 		4ADED1EF2103F28400B4F229 /* ModeratorNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				4ADED24B2103F3D800B4F229 /* Models */,
-				4ADED2182103F37C00B4F229 /* Extensions */,
-				4ADED2152103F30900B4F229 /* Network */,
+				4ADED2492103F3CF00B4F229 /* Moderator.swift */,
+				4ADED24C2103F3EF00B4F229 /* Double+Extensions.swift */,
+				4ADED2162103F36700B4F229 /* String+Extensions.swift */,
+				4ADED2082103F2F700B4F229 /* DataResponseError.swift */,
+				4ADED2072103F2F700B4F229 /* HTTPURLResponse.swift */,
+				4ADED20A2103F2F700B4F229 /* ModeratorRequest.swift */,
+				4ADED20D2103F2F800B4F229 /* PagedModeratorResponse.swift */,
+				4ADED2092103F2F700B4F229 /* Result.swift */,
+				4ADED20B2103F2F800B4F229 /* StackExchangeClient.swift */,
+				4ADED20C2103F2F800B4F229 /* URLRequest.swift */,
 				4ADED1F02103F28400B4F229 /* ModeratorNetwork.h */,
 				4ADED1F12103F28400B4F229 /* Info.plist */,
 			);
@@ -111,37 +118,6 @@
 				4ADED1FD2103F28400B4F229 /* Info.plist */,
 			);
 			path = ModeratorNetworkTests;
-			sourceTree = "<group>";
-		};
-		4ADED2152103F30900B4F229 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				4ADED2082103F2F700B4F229 /* DataResponseError.swift */,
-				4ADED2072103F2F700B4F229 /* HTTPURLResponse.swift */,
-				4ADED20A2103F2F700B4F229 /* ModeratorRequest.swift */,
-				4ADED20D2103F2F800B4F229 /* PagedModeratorResponse.swift */,
-				4ADED2092103F2F700B4F229 /* Result.swift */,
-				4ADED20B2103F2F800B4F229 /* StackExchangeClient.swift */,
-				4ADED20C2103F2F800B4F229 /* URLRequest.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		4ADED2182103F37C00B4F229 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				4ADED24C2103F3EF00B4F229 /* Double+Extensions.swift */,
-				4ADED2162103F36700B4F229 /* String+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		4ADED24B2103F3D800B4F229 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4ADED2492103F3CF00B4F229 /* Moderator.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		4ADED24E2103F4AF00B4F229 /* Frameworks */ = {
@@ -264,16 +240,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ADED2102103F2F800B4F229 /* Result.swift in Sources */,
-				4ADED20E2103F2F800B4F229 /* HTTPURLResponse.swift in Sources */,
-				4ADED24A2103F3CF00B4F229 /* Moderator.swift in Sources */,
-				4ADED20F2103F2F800B4F229 /* DataResponseError.swift in Sources */,
-				4ADED24D2103F3EF00B4F229 /* Double+Extensions.swift in Sources */,
-				4ADED2132103F2F800B4F229 /* URLRequest.swift in Sources */,
-				4ADED2172103F36700B4F229 /* String+Extensions.swift in Sources */,
-				4ADED2112103F2F800B4F229 /* ModeratorRequest.swift in Sources */,
-				4ADED2122103F2F800B4F229 /* StackExchangeClient.swift in Sources */,
-				4ADED2142103F2F800B4F229 /* PagedModeratorResponse.swift in Sources */,
+				4AB363752103FDA500404D9D /* Moderator.swift in Sources */,
+				4AB363762103FDA500404D9D /* Double+Extensions.swift in Sources */,
+				4AB363772103FDA500404D9D /* String+Extensions.swift in Sources */,
+				4AB363782103FDA500404D9D /* DataResponseError.swift in Sources */,
+				4AB363792103FDA500404D9D /* HTTPURLResponse.swift in Sources */,
+				4AB3637A2103FDA500404D9D /* ModeratorRequest.swift in Sources */,
+				4AB3637B2103FDA500404D9D /* PagedModeratorResponse.swift in Sources */,
+				4AB3637C2103FDA500404D9D /* Result.swift in Sources */,
+				4AB3637D2103FDA500404D9D /* StackExchangeClient.swift in Sources */,
+				4AB3637E2103FDA500404D9D /* URLRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
