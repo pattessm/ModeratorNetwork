@@ -29,8 +29,8 @@
 import Foundation
 
 public struct Moderator: Decodable {
-  let displayName: String
-  let reputation: String
+    public let displayName: String
+    public let reputation: String
   
   enum CodingKeys: String, CodingKey {
     case displayName = "display_name"
