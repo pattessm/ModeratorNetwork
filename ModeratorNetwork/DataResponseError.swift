@@ -28,11 +28,11 @@
 
 import Foundation
 
-enum DataResponseError: Error {
+public enum DataResponseError: Error {
   case network
   case decoding
   
-  var reason: String {
+ public var reason: String {
     switch self {
     case .network:
       return "An error occurred while fetching data ".localizedString

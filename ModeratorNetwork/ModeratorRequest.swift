@@ -28,7 +28,7 @@
 
 import Foundation
 
-struct ModeratorRequest {
+public struct ModeratorRequest {
   var path: String {
     return "users/moderators"
   }
@@ -39,8 +39,8 @@ struct ModeratorRequest {
   }
 }
 
-extension ModeratorRequest {
-  static func from(site: String) -> ModeratorRequest {
+public extension ModeratorRequest {
+  public static func from(site: String) -> ModeratorRequest {
     let defaultParameters = ["order": "desc", "sort": "reputation", "filter": "!-*jbN0CeyJHb"]
     let parameters = ["site": "\(site)"].merging(defaultParameters, uniquingKeysWith: +)
     return ModeratorRequest(parameters: parameters)

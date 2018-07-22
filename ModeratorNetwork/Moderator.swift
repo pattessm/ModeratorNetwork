@@ -28,7 +28,7 @@
 
 import Foundation
 
-struct Moderator: Decodable {
+public struct Moderator: Decodable {
   let displayName: String
   let reputation: String
   
@@ -42,7 +42,7 @@ struct Moderator: Decodable {
     self.reputation = reputation
   }
   
-  init(from decoder: Decoder) throws {
+  public init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)
     let displayName = try container.decode(String.self, forKey: .displayName)
     let reputation = try container.decode(Double.self, forKey: .reputation)

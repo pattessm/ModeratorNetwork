@@ -28,7 +28,7 @@
 
 import Foundation
 
-final class StackExchangeClient {
+public final class StackExchangeClient {
   private lazy var baseURL: URL = {
     return URL(string: "http://api.stackexchange.com/2.2/")!
   }()
@@ -39,7 +39,7 @@ final class StackExchangeClient {
     self.session = session
   }
   
-  func fetchModerators(with request: ModeratorRequest, page: Int, completion: @escaping (Result<PagedModeratorResponse, DataResponseError>) -> Void) {
+  public func fetchModerators(with request: ModeratorRequest, page: Int, completion: @escaping (Result<PagedModeratorResponse, DataResponseError>) -> Void) {
     // 1
     let urlRequest = URLRequest(url: baseURL.appendingPathComponent(request.path))
     // 2

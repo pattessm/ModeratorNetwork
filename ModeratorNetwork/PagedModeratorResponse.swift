@@ -28,7 +28,7 @@
 
 import Foundation
 
-struct PagedModeratorResponse: Decodable {
+public struct PagedModeratorResponse: Decodable {
   let moderators: [Moderator]
   let total: Int
   let hasMore: Bool
