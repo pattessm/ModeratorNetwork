@@ -29,10 +29,10 @@
 import Foundation
 
 public struct PagedModeratorResponse: Decodable {
-  let moderators: [Moderator]
-  let total: Int
-  let hasMore: Bool
-  let page: Int
+  public let moderators: [Moderator]
+  public let total: Int
+  public let hasMore: Bool
+  public let page: Int
   
   enum CodingKeys: String, CodingKey {
     case moderators = "items"    
